@@ -85,6 +85,7 @@ export const PROJECTS = [
     description:
       "Developed a chat application using React.js that supports real-time messaging and photo sharing. Users can send text messages and images to multiple recipients, with an intuitive interface for seamless communication. The app features real-time updates, ensuring messages and images are instantly visible to all participants. Built with a focus on performance and user experience, the application leverages React's component-based architecture to handle messaging efficiently.",
     technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+    link: "https://chat-application111.netlify.app",
   },
 ];
 
