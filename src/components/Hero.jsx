@@ -1,6 +1,6 @@
 import React from "react";
 import { HERO_CONTENT } from "../constants";
-import profilePic from "../assets/profile-pic.jpg";
+import profilePic from "../assets/swastideepProfile.png"; // Correct file name and extension
 
 import { motion, useInView } from "framer-motion";
 
