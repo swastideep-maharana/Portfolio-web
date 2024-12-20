@@ -2,8 +2,9 @@ import project1 from "../assets/projects/project-1.png";
 import project2 from "../assets/projects/project-2.png";
 import project3 from "../assets/projects/project-3.png";
 import project4 from "../assets/projects/project-4.png";
+import project5 from "../assets/projects/project-5.png";
 
-export const HERO_CONTENT = `I am a passionate frontend developer Proficient in React, Next.js, and MongoDB, showcasing strong front-end development skills with a focus on modern frameworks and libraries.
+export const HERO_CONTENT = `I am a passionate frontend developer Proficient in HTML, CSS, ReactJS,tailwindcss, Next.js, and MongoDB, showcasing strong front-end development skills with a focus on modern frameworks and libraries.
 Experienced in managing web performance optimization,
 Good in the MERN stack, with a deep understanding of front-end development, full-stack application design, and user experience improvements.
 Possess rich experience in client interaction and relationship management. 
@@ -50,11 +51,35 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
+    title: "ChatterBox",
+    image: project4,
+    description:
+      "Developed a chat application using React.js that supports real-time messaging and photo sharing. Users can send text messages and images to multiple recipients, with an intuitive interface for seamless communication. The app features real-time updates, ensuring messages and images are instantly visible to all participants. Built with a focus on performance and user experience, the application leverages React's component-based architecture to handle messaging efficiently.",
+    technologies: [
+      "ReactJs",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "Socket.io",
+      "TailwindCSS",
+      "Daisy UI",
+    ],
+    link: "https://chatterbox-1qmd.onrender.com/login",
+  },
+  {
     title: "Tamato Food Ordering Application",
     image: project1,
     description:
       "Developed a Restaurant Food Ordering Application using React.js and Tailwind CSS, allowing users to browse menus, place orders, and complete payments efficiently. Features include secure user authentication, real-time order tracking, and a responsive design for various devices. Integrated a seamless payment gateway for multiple payment methods. Leveraged React’s component-based architecture and Tailwind’s utility-first CSS to create a modern, intuitive interface, while incorporating real-time updates and performance optimization techniques.",
-    technologies: ["HTML", "Tailwind", "React", "Node.js", "Strip", "MongoDB"],
+    technologies: [
+      "HTML",
+      "JavaScript",
+      "Tailwind",
+      "ReactJs",
+      "Node.js",
+      "Stripe",
+      "MongoDB",
+    ],
     link: "https://food-delivery-web-frontend-eexv.vercel.app/",
   },
   {
@@ -62,36 +87,32 @@ export const PROJECTS = [
     image: project2,
     description:
       "Developed an AI-powered Expense Tracker Application using React.js, Tailwind CSS, Shadcn, and Google Gemini AI. The application allows users to effortlessly track, categorize, and analyze their expenses with an intuitive, responsive interface. Leveraged Shadcn for enhanced component design and Google Gemini AI for intelligent expense categorization and predictive insights. Integrated real-time data visualization for financial summaries and trends. Utilized React’s dynamic components and Tailwind’s utility-first CSS for a modern, user-friendly experience.",
-    technologies: [
-      "React Js",
-      "Tailwind",
-      "ShadCn",
-      "Google Gemini",
-      "MongoDB",
-    ],
+    technologies: ["ReactJs", "Tailwind", "ShadCn", "Google Gemini", "MongoDB"],
     link: "https://expense-ai-tracker.vercel.app/",
+  },
+  {
+    title: "RespawinGalaxy",
+    image: project5,
+    description:
+      "Respawning Galaxy is a sleek and interactive website that showcases the dynamic world of gaming. With a visually appealing interface, the site provides visitors with an immersive experience, featuring content such as gaming news, reviews, and community updates. It is designed with responsiveness in mind, ensuring smooth navigation and accessibility across various devices. Whether you're a casual gamer or a dedicated enthusiast, Respawning Galaxy serves as a hub to explore and engage with the latest trends in gaming culture.",
+    technologies: ["HTML", "CSS", "javascript", "ReactJs", "Tailwind"],
+    link: "https://respawingalaxy.netlify.app/",
   },
   {
     title: "Gemini 2.0",
     image: project3,
     description:
       "Created an enhanced version of Google Gemini AI using the Google Gemini API, React.js, and Tailwind CSS. This project features a sleek, responsive interface built with React.js and styled using Tailwind CSS. Integrated advanced AI functionalities from the Gemini API to deliver a more intuitive and interactive user experience. The application provides improved performance and a modern design for better usability.",
-    technologies: ["HTML", "CSS", "React", "Google Gemini Ai"],
+    technologies: ["HTML", "CSS", "ReactJs", "Tailwind", "Google Gemini Ai"],
     link: "https://google-gemini2.netlify.app/",
   },
-  {
-    title: "Chat-App",
-    image: project4,
-    description:
-      "Developed a chat application using React.js that supports real-time messaging and photo sharing. Users can send text messages and images to multiple recipients, with an intuitive interface for seamless communication. The app features real-time updates, ensuring messages and images are instantly visible to all participants. Built with a focus on performance and user experience, the application leverages React's component-based architecture to handle messaging efficiently.",
-    technologies: ["HTML", "CSS", "React.js", "Express", "tailwind"],
-    link: "https://chat-application111.netlify.app",
-  },
+  ,
 ];
 
 export const CONTACT = {
   // address: "767 Fifth Avenue, New York, NY 10153 ",
   // phoneNo: "+12 4555 666 00 ",
+  link: "swastideepmaharana.dev@gmail.com",
   email: "swastideepmaharana.dev@gmail.com",
 };
 
